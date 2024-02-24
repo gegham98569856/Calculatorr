@@ -1,0 +1,18 @@
+.form{
+    background: rgb(77, 72, 72);
+    height: 360px;
+    width: 312px;
+    border: 2px solid black;
+}
+.input{
+    
+    background-color: rgb(125, 114, 114);
+    height: 50px;
+    width: 312px;
+}
+.clav{
+    display: inline;
+    background: gray;
+    width: 75px;
+    height: 60px;
+}

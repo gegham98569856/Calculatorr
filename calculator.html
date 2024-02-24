@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <div class="form">
+        <div class="input"><br><input type="text" id="display"  disabled></div>
+        <button class="clav" value="7" onclick="addZero(7)">7</button>
+        <button class="clav" value="8" onclick="addZero(8)">8</button>
+        <button class="clav" value="9" onclick="addZero(9)">9</button>
+        <button class="clav" value="/" onclick="addZero('/')">/</button>
+        
+        <button class="clav" value="4" onclick="addZero(4)">4</button>
+        <button class="clav" value="5" onclick="addZero(5)">5</button>
+        <button class="clav" value="6" onclick="addZero(6)">6</button>
+        <button class="clav" value="*" onclick="addZero('*')">*</button>
+
+        <button class="clav" value="1" onclick="addZero(1)">1</button>
+        <button class="clav" value="2" onclick="addZero(2)">2</button>
+        <button class="clav" value="3" onclick="addZero(3)">3</button>
+        <button class="clav" value="-" onclick="addZero('-')">-</button>
+
+        <button class="clav" value="0" onclick="addZero(0)">0</button>
+        <button class="clav" value="." onclick="addZero('.')">.</button>
+        <button class="clav" value="=" onclick="calculate()">=</button>
+        <button class="clav" value="+" onclick="addZero('+')">+</button>
+
+        <button class="clav" value="C" onclick="clear()">C</button>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>
